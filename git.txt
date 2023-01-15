@@ -1,0 +1,36 @@
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/Rafid-Al-Ahsan/first-repo.git
+git push -u origin main
+
+
+
+
+git add .
+git commit -m "second commit"
+git push
+
+
+git remote set-url <repo link>
+
+
+git remote show origin
+git remote rm origin
+
+
+
+A - Added (This is a new file that has been added to the repository)
+
+M - Modified (An existing file has been changed)
+
+D - Deleted (a file has been deleted)
+
+U - Untracked (The file is new or has been changed but has not been added to the repository yet)
+
+C - Conflict (There is a conflict in the file)
+
+R - Renamed (The file has been renamed)
+
+S - Submodule (In repository exists another subrepository)
